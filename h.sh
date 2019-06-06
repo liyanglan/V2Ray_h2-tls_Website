@@ -284,7 +284,7 @@ judge "caddy 安装"
 web_install(){
 	echo -e "${OK} ${GreenBG} 安装Website伪装站点 ${Font}"
 	mkdir /www
-	wget https://github.com/liyanglan/V2Ray_h2-tls_Website/raw/master/V2rayWebsite.tar.gz
+	wget https://github.com/liyanglan/Website/raw/master/V2rayWebsite.tar.gz
 	tar -zxvf V2rayWebsite.tar.gz -C /www
 	rm -f V2rayWebsite.tar.gz
 }
@@ -660,7 +660,7 @@ share_uuid(){
 win64_v2ray(){
 	TAG_URL="https://api.github.com/repos/v2ray/v2ray-core/releases/latest"
 	NEW_VER=`curl -s ${TAG_URL} --connect-timeout 10| grep 'tag_name' | cut -d\" -f4`
-	wget https://github.com/liyanglan/V2Ray_h2-tls_Website/raw/master/V2rayPro.zip
+	wget https://github.com/liyanglan/Website/raw/master/V2rayPro.zip
 	wget https://github.com/v2ray/v2ray-core/releases/download/${NEW_VER}/v2ray-windows-64.zip
 	echo -e "${OK} ${GreenBG} 正在生成Windows客户端 v2ray-core最新版本 ${NEW_VER} ${Font}"
 	unzip V2rayPro.zip
