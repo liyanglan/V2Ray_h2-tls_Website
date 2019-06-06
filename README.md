@@ -22,7 +22,7 @@
 ```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/liyanglan/V2Ray_h2-tls_Website/master/h.sh" && chmod +x h.sh && bash h.sh
 ```
-[新手请使用 Debian8 纯净系统安装]
+[新手请使用 Debian8/9 纯净系统安装]
 
 备用1：一键更换新的 UUID，同时升级 Windows 客户端
 ```
