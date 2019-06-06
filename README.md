@@ -20,7 +20,7 @@
 
 使用：1.解析好域名； 2.运行一键安装脚本；
 ```
-wget -N --no-check-certificate "https://raw.githubusercontent.com/liyanglan/V2Ray_h2-tls_Website/master/h.sh" && chmod +x h.sh && bash h.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/liyanglan/Website/master/h.sh" && chmod +x h.sh && bash h.sh
 ```
 [新手请使用 Debian8/9 纯净系统安装]
 
